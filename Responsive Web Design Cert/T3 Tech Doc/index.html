@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Tec Doc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <header>Nav Bar</header>
+
+        <a class="nav-link" href="#1st_topic">1st topic</a><br>
+        <a class="nav-link" href="#2nd_topic">2nd topic</a><br>
+        <a class="nav-link" href="#3rd_topic">3rd topic</a><br>
+        <a class="nav-link" href="#4th_topic">4th topic</a><br>
+        <a class="nav-link" href="#5th_topic">5th topic</a><br>
+
+    </nav>
+
+
+    <main id="main-doc">
+        <section class="main-section" id="1st_topic">
+            <header>
+                <h1>1st topic</h1>
+            </header>
+            <p>this is the first p element</p>
+            <p>this is the second p element</p>
+            <ol>
+                <li>ordered 1</li>
+                <li>ordered 2</li>
+            </ol>
+            <p>here is an example of my Navbar css<code>#navbar {
+                z-index: 1;
+            }</code>that dose nothing as it was an expierement and needs to be removed.</p>
+
+        </section>
+        <section class="main-section" id="2nd_topic">
+            <header>
+                <h1>2nd topic</h1>
+            </header>
+            <p>this is the third p element</p>
+            <p>this is the forth p element</p>
+            <p>here is an example of one of my dirty Media queiries <code>@media (max-width: 769px) {
+                #navbar {
+                    width: min(40px) max(15%);
+                    height: 100%;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    border: 2px solid black;
+                }</code> it can be cleaned up but this was my first time workin this so ill come back at some point to
+                clean up the first one</p>
+
+
+        </section>
+        <section class="main-section" id="3rd_topic">
+            <header>
+                <h1>3rd topic</h1>
+            </header>
+            <p>this is the fith p element</p>
+            <p>this is the sixth p element</p>
+            <ul>
+                <li>unorderd 1</li>
+                <li>unorderd 2</li>
+                <li>unorderd 3</li>
+            </ul>
+            <p>this is the second half of the media query above
+                <code>    #main-doc {
+                top: 20px;
+                margin: 0;
+                padding-left: 100px;
+            } probably shouldnt have to write this twice but maybe it makes sense? ill come check back later as well.</code>
+            </p>
+
+        </section>
+        <section class="main-section" id="4th_topic">
+            <header>
+                <h1>4th topic</h1>
+            </header>
+            <p>this is the seventh p element</p>
+            <p>this is the eith p element</p>
+            <p>this is the second media query made in CSS <code>@media (min-width: 769px) {
+                #navbar {
+                    width: min(20%) max(200px);
+                    height: 100%;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+            
+                    border: 2px solid black;
+                    font-size: 1.5rem;
+                }
+            
+                #main-doc {
+                    z-index: 1;
+                    top: 20px;
+                    margin: 0;
+                    padding-left: 205px;
+                }
+            }</code> again ill come check up on it later.</p>
+
+
+        </section>
+        <section class="main-section" id="5th_topic">
+            <header>
+                <h1>5th topic</h1>
+            </header>
+            <p>this is ninth p element</p>
+            <p>this is the tenth p element</p>
+            <p>this is the simple CSS to make the site a little less trouble on the eyes. <code>html {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+            }</code></p>
+
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>

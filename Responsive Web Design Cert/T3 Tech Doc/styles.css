@@ -1,0 +1,48 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#navbar {
+    z-index: 1;
+}
+
+@media (max-width: 769px) {
+    #navbar {
+        width: min(40px) max(15%);
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        border: 2px solid black;
+    }
+
+    #main-doc {
+        top: 20px;
+        margin: 0;
+        padding-left: 100px;
+    }
+
+
+
+}
+
+@media (min-width: 769px) {
+    #navbar {
+        width: min(20%) max(200px);
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        border: 2px solid black;
+        font-size: 1.5rem;
+    }
+
+    #main-doc {
+        z-index: 1;
+        top: 20px;
+        margin: 0;
+        padding-left: 205px;
+    }
+}

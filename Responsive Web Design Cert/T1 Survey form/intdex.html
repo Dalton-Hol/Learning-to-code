@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="En">
+
+<head>
+    <title>Dean Survey</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Dean Survey Form</h1>
+    <p id="description"><em>What do you think of Dean?</em></p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Enter Your Name: <input id="name" type="text" placeholder="First Name"
+                    required></label>
+            <label id="email-label" for="email">Enter Your Email: <input id="email" type="email"
+                    placeholder="YourEmail@Email.com" required /></label>
+            <label id="number-label" for="number">Enter Your Age(optional) <input id="number" type="number"
+                    placeholder="Age" min="13" max="99" /></label>
+            <label id="label-dropdown" for="dropdown">How would you describe your feelings for Dean Jasper Hollander?
+                <select id="dropdown">
+                    <option value="">Select one</option>
+                    <option value="1">Like</option>
+                    <option value="2">Love</option>
+                </select>
+            </label>
+            <label id="label-for-eye-question">What color are Dean's mothers (Karina's) eyes?</label>
+            <label id="label-option-1" for="green-option"> <input id="green-option" type="radio" name="color-option"
+                    value="g" />
+                Green</label>
+            <label id="label-option-2" for="blue-option"> <input id="blue-option" type="radio" name="color-option"
+                    value="b" /> Blue</label>
+            <hr>
+            <label id="cb-animal-question" type="text">What is Deans Favorite type of animal?</label>
+            <label for="checkbox-1"><input id="checkbox-1" type="checkbox" value="1" /> Tigers</label>
+            <label for="checkbox-2"><input id="checkbox-2" type="checkbox" value="2" /> Cats</label>
+            <label for="checkbox-3"><input id="checkbox-3" type="checkbox" value="3" /> Other (maybe dogs/k9)</label>
+            <hr>
+            <label for="dean-comments">Tell us your favorite feature about Dean! <br><textarea id="dean-comments"
+                    placeholder="Dean is the best at..." rows="3" cols="30"></textarea></label>
+
+        </fieldset>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

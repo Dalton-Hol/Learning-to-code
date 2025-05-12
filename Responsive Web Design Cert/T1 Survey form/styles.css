@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(46, 45, 45);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin: .5rem;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 500px;
+    width: 75vw;
+    padding-bottom: 2em;
+
+}
+
+h1,
+p {
+    text-align: center;
+    margin: 1em auto;
+}
+
+input,
+textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    font-size: 1rem;
+
+}
+
+#submit {
+    display: block;
+    padding: 10px 30px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    border: black solid 4px
+}
+
+/*
+h1 {
+    width: 30vh;
+    background: linear-gradient(90deg, blue, green, blue);
+    background-clip: text;
+    color: transparent;
+}
+    /*

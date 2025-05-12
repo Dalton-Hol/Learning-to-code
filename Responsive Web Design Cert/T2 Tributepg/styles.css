@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+#img-div {
+    max-width: 30vw;
+    height: auto;
+    background-color: darkslategrey;
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+
+#img-caption {
+    text-align: center;
+}
