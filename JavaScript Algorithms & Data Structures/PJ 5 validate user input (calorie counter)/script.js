@@ -7,8 +7,12 @@ const output = document.getElementById("output");
 let isError = false
 
 function cleanInputString(str) {
-    console.log("original string: ", str)
     const regex = /[+-\s]/g;
     return str.relace(regex, "");
 }
-console.log(cleanInputString("+-99"));
+
+function isInvalidInput(str) {
+    const regex = /\d+e\d+/i;
+    return str.match(regex);
+}
+console.log(isInvalidInput("1e3"))
