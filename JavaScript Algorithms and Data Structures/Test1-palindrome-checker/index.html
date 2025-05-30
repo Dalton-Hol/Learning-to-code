@@ -9,7 +9,30 @@
 </head>
 
 <body>
-
+    <section class="header">
+        <div class="header-content">
+            <h1>Palindrome Checker</h1>
+            <p>
+                A palindrome is a word or sentence that's spelled the same way both forward and
+                backward, ignoring
+                punctuation, case, and spacing.
+            </p>
+        </div>
+    </section>
+    <section id="input-section">
+        <div class="input-container">
+            <form id="palindrome-form"><label for="text-input" class="input-label">Is this a palindrome?</label>
+                <input id="text-input" type="text" required placeholder="User input">
+                <button id="check-btn" type="submit">Check </button>
+            </form>
+        </div>
+    </section>
+    <section class="result-box">
+        <div class="result-box">
+            <p class="result-box" id="result">Your result Here!</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
