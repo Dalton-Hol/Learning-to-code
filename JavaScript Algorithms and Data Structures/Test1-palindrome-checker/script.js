@@ -26,17 +26,25 @@ function cleanInput(input) {
     return reversed;
 } */
 
-function checkPalindrome() {
-    const prepedInput = getInput()
+function checkPalindrome(event) {
+    event.preventDefault();
+
+    const preppedInput = getInput()
+
+    if (preppedInput.original === "") {
+        window.alert("Please input a value");
+        return; // stop the function so it doesn't continue
+    }
+
     //reverseInput(prepedInput.cleaned)
-    const reversed = prepedInput.cleaned.split('').reverse().join('');
-    if (prepedInput.cleaned === reversed) {
-        resultMsg.innerText = `${prepedInput.original} is a palindrome`
+    const reversed = preppedInput.cleaned.split('').reverse().join('');
+    if (preppedInput.cleaned === reversed) {
+        resultMsg.innerText = `${preppedInput.original} is a palindrome`
     } else {
-        resultMsg.innerText = `${prepedInput.original} is not a palindrome`
+        resultMsg.innerText = `${preppedInput.original} is not a palindrome`
     }
 }
 
-checkBtn.addEventListener("click", checkPalindrome);
+form.addEventListener("submit", checkPalindrome);
 
 
